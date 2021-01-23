@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Game 1",
+    "player": [
+      {
+        "name": "Alice",
+        "role": "Werwolf"
+      },
+      {
+        "name": "Bob",
+        "role": "Bewohner"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Game 2",
+    "player": [
+      {
+        "name": "Alice",
+        "role": "Werwolf"
+      },
+      {
+        "name": "Bob",
+        "role": "Bewohner"
+      }
+    ]
+  }
+]
