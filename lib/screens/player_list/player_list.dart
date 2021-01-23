@@ -64,11 +64,6 @@ class _PlayerListPageState extends State<PlayerListPage> {
                       ),
                 );
               } else if (snapshot.hasError) {
-                child = Icon(
-                  Icons.error_outline,
-                  color: Colors.red,
-                  size: 60,
-                );
                 child = Center(
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,

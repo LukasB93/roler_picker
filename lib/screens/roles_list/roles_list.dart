@@ -64,11 +64,6 @@ class _RoleListPageState extends State<RoleListPage> {
                 ),
               );
             } else if (snapshot.hasError) {
-              child = Icon(
-                Icons.error_outline,
-                color: Colors.red,
-                size: 60,
-              );
               child = Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
